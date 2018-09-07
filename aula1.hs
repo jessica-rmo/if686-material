@@ -1,3 +1,17 @@
+answer :: Int
+answer = 42
+
+{-
+Isso não é uma atribuição de 42 a uma variável de nome “answer”. Na verdade answer é uma expressão, ou seja, uma função, a qual retorna o valor 42 (função constante).
+Tipos começam com letra maiúscula (Int, Bool, etc…)
+-}
+
+greater :: Bool
+greater = (answer > 71)
+
+yes :: Bool
+yes = True
+
 funcaoConstante :: Int
 funcaoConstante = 30
 
