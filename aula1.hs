@@ -43,3 +43,14 @@ valoresIguais x y z = (x == y) && (y == z)
 maxi :: Int -> Int -> Int
 maxi x y | x >= y    = x
          | otherwise = y   --caso default
+
+-- aplicação:
+-- com ou sem parêntesis
+square 5	-- = 25
+square(5)	-- = 25
+
+allEqual 1 2 3		-- = False
+allEqual(1) (2) (3)	-- = False
+allEqual(1,2,3)	   -- ERRO! Será interpretado com valor de coordenada
+
+maxi 123 609	-- = 609
