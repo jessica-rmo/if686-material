@@ -19,3 +19,6 @@ ehPrimoHelper n x
   | n == x         = True
   | (mod n x) == 0 = False
   | otherwise      = ehPrimoHelper n (x+1)
+
+
+-- fazer outras questões da lista
