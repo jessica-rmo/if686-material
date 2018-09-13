@@ -55,7 +55,13 @@
   <tr>
 		<td>8</td>
     <td>13/09/18</td>
+    <td>ver no Piazza</td>
+    <td>fazendo</td>
+  </tr>
+  <tr>
+		<td>9</td>
+    <td>18/09/18</td>
     <td></td>
     <td></td>
-	</tr>
+  </tr>
 </table>
