@@ -25,7 +25,7 @@
   <tr>
 		<td>3</td>
     <td>21/08/18</td>
-    <td>fazer</td>
+    <td>ok</td>
     <td>ok</td>
 	</tr>
   <tr>
