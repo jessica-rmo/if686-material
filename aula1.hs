@@ -55,3 +55,28 @@ allEqual(1,2,3)	   -- ERRO! Será interpretado com valor de coordenada
 
 maxi 123 609	-- = 609
 -}
+
+fatorial :: Int -> Int
+fatorial 0 = 1
+fatorial n = n * fatorial(n-1)
+
+somaQuadrados :: Int -> Int -> Int
+somaQuadrados x y = quadX + quadY
+  where
+    quadX  = x * x
+    quadY  = y * y
+-- (let .... in ...)  + 20
+
+aplicaF :: (Int -> Int) -> Int -> Int
+aplicaF f x = f x + 2
+--f :: (Ord b , Num a) => a -> a -> a -> b
+
+somaLista :: [Int] -> Int
+somaLista [] = 0
+somaLista (x:xs) = x + somaLista xs
+
+
+ind :: [a] -> Int -> a
+ind l@(x:xs) n 
+  | n == length l = last xs
+  | otherwise = ind (x:init xs) n
