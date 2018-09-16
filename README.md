@@ -19,7 +19,7 @@
   <tr>
 		<td>2</td>
     <td>16/08/18</td>
-    <td>fazer</td>
+    <td>ok</td>
     <td>ok</td>
 	</tr>
   <tr>
