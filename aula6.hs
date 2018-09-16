@@ -43,7 +43,7 @@ somaPares2 l
 
 indice :: [Int] -> Int -> Int
 indice l n
-    | n == l = head l
+    | n == (head l) = head l
     | otherwise = indice (tail l) (n-1)
 
 inverter :: [Int] -> [Int]
@@ -73,7 +73,7 @@ iSort [] = []
 iSort (x:xs) = ins x (iSort xs)
 
 ins :: Int -> [Int] -> [Int]
-ins	n [] = [n]
+ins n [] = [n]
 ins n (x:xs)
     | n <= x = (n:x:xs)
     | otherwise = x : ins n xs
