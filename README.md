@@ -31,7 +31,7 @@
   <tr>
 		<td>4</td>
     <td>23/08/18</td>
-    <td>fazendo</td>
+    <td>ok</td>
     <td>ok</td>
 	</tr>
   <tr>
