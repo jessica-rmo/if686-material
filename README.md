@@ -43,7 +43,7 @@
   <tr>
 		<td>6</td>
     <td>09/09/18</td>
-    <td>fazendo</td>
+    <td>ok</td>
     <td>ok</td>
 	</tr>
   <tr>
