@@ -1,7 +1,10 @@
 <h3>Material da disciplina IF686 - Paradigmas de Linguagens Computacionais</h3><br>
 <ul>
   <li><a href="https://docs.google.com/document/d/1LgMNvYrUKqUFn3K_VRlWQiGzBunnfHEtLOZq9WtEuIU/edit?usp=sharing">Resumo no Google Docs</a></li>
+	<li><a href="http://learnyouahaskell.com/chapters">Learn You a Haskell for Great Good</a> [<a href="http://haskell.tailorfontela.com.br/chapters">em português</a>]</li>
+	<li><a href="https://www.youtube.com/playlist?list=PL8eBmR3QtPL3pDzQpwPYfWQ4NEPGu6j7z">Curso Haskell para iniciantes (Youtube)</a></li>
 </ul>
+<br>
 
 <table>
 	<tr>
