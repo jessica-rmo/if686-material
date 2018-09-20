@@ -70,8 +70,8 @@
   <tr>
     <td>10</td>
     <td>20/09/18</td>
-    <td></td>
-    <td></td>
+    <td>ok</td>
+    <td>fazendo</td>
   </tr>
   <tr>
     <td>11</td>
