@@ -1,3 +1,4 @@
+-- Tipos algébricos (continuação)
 
 data Lista t = Nil | Cons t (Lista t) deriving Show
 {-
@@ -56,15 +57,15 @@ instance Visible Bool where
 
 instance Visible t => Visible [t] where
    toString = concat . (map toString)
+   size  = (foldr (+) 0) . (map size)
+   --ouras formas:
    --size l = length l
-   --size  = (foldr (+) 0) . (map size)
-   size [] = 0
-   size (x:xs) = size x + size xs
+   --size [] = 0
+   --size (x:xs) = size x + size xs
 
 instance Eq t => Eq (Arvore t) where
    Folha == Folha = True
    (No n1 l1 r1) == (No n2 l2 r2) = (n1 == n2) && (l1 == l2) && (r1 == r2)
-
 
 -- exemplo com Pessoa
 type Nome = String
@@ -83,11 +84,24 @@ instance Visible Pessoa where
    size (F n1) = 1
 
 -- como dizer, então, que uma lista de Pessoa é Visible?
-instance Visible a => Visible [a] where		-- 1
-   toString = concat . (map toString)	-- 2
-   size     = (foldr (+) 0) . (map size)	-- 3
+{-
+instance Visible a => Visible [a] where    -- 1
+   toString = concat . (map toString)      -- 2
+   size     = (foldr (+) 0) . (map size)   -- 3
    
    -- [1] a generaliza Pessoa. Uma lista de "a" é algo que é Visible
    -- [2] transforma cada elemento da lista em String e depois os concatena
    -- [3] pega todos os tamanhos dos elementos e os soma (iniciando por 0)
+-}
 
+-- outro exemplo:
+--type Nome = String
+type Potencia = Int
+data Lampada = Compacta Nome Potencia | Incandescente Nome Potencia
+
+instance Eq Lampada where
+   (Compacta n1 p1) == (Compacta n2 p2)           = n1 == n2 && p1 == p2
+   (Incandescente n1 p1) == (Incandescente n2 p2) = n1 == n2 && p1 == p2
+
+instance Show Lampada where
+   show (Compacta n1 p1) = "Compacta " ++ n1 ++ " " ++ show p1
