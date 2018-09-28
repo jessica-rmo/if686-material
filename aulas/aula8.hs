@@ -35,12 +35,6 @@ mfoldl (+) 0 [1,2,3]
 ehPar :: Int -> Bool
 ehPar x = mod x 2 == 0
 
-filtro :: (a -> Bool) -> [a] -> [a]
-filtro f [] = []
-filtro f (x:xs)
- | f x = x : filtro f xs
- | otherwise = filtro f xs 
-
 sing :: a -> [a]
 sing x = [x]
 
