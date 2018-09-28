@@ -79,4 +79,4 @@ tamanho :: Lista t -> Int
 tamanho (Nil) = 0
 tamanho (Const _ l) = 1 + tamanho l
 
-data Arvore t = NilArv | No (Arvore t) t (Arvore t)
+data Arvore t = NilArv | No (Arvore t) t (Arvore t) deriving Show
