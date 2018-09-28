@@ -1,18 +1,18 @@
 -- Tipos algébricos (continuação)
 
-data Lista t = Nil | Cons t (Lista t) deriving Show
-{-
---exemplo:
-exL = Cons 3 (Cons 4 (Cons 5 Nil))
+data Lista t = Nil | Cons t (Lista t) deriving (Show) --, Eq)
+
+exL1 = Cons 3 (Cons 4 (Cons 5 Nil))
+exL2 = Cons 3 (Cons 4 (Cons 5 Nil))
 
 toList :: Lista t -> [t]
 toList Nil = []
-toList (Cons n l) = n : toList t
+toList (Cons n l)  = n : toList l
 
 fromList :: [t] -> Lista t
-fromList Nil = []
+fromList [] = Nil
 fromList (x:xs) = Cons x (fromList xs)
--}
+
 
 data Arvore t = Folha | No t (Arvore t) (Arvore t) deriving Show
 
