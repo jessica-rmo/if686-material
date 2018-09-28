@@ -1,4 +1,4 @@
-<h3>Material da disciplina IF686 - Paradigmas de Linguagens Computacionais</h3><br>
+IF686 - Paradigmas de Linguagens Computacionais</h3><br>
 <ul>
   <li><a href="https://docs.google.com/document/d/1LgMNvYrUKqUFn3K_VRlWQiGzBunnfHEtLOZq9WtEuIU/edit?usp=sharing" target="_blank">Resumo no Google Docs</a></li>
 	<li><a href="http://learnyouahaskell.com/chapters" target="_blank">Learn You a Haskell for Great Good</a> [<a href="http://haskell.tailorfontela.com.br/chapters" target="_blank">em português</a>]</li>
