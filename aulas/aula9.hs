@@ -1,22 +1,22 @@
 inc :: Int -> Int
-inc x = x + 1
+inc x = x + 1 
 
 twice :: (t -> t) -> t -> t
 twice f x = f (f x)
 
-iter :: Int -> (Int -> Int) -> (Int -> Int)
+--iter :: Int -> (Int -> Int) -> (Int -> Int)
 iter 0 f = id
 iter n f = (iter (n-1) f) . f
 
 {-
 iter 3 inc
 = (iter 2 inc) . inc
-= ((iter 1 inc) . inc) . inc
-= (((iter 0 inc) . inc) . inc) . inc
-= ((id . inc) . inc) . inc
+= ((iter 1 inc). inc ). inc
+= (((iter 0 inc) . inc). inc ). inc
+= ((id . inc). inc ). inc
 -}
 
--- Notação Lambda:
+-- Notacao lambda
 
 -- Inc : (\x -> x + 1)
 
@@ -24,15 +24,14 @@ iter 3 inc
 addNum n = (\m -> m + n)
 
 -- Aplicação parcial de funções:
+-- Possibilidade de passar menos argumentos do que o que a função pede
 
--- Possibilidade de passar menos argumentos do que o que a função pede.
 multiplica :: Int -> Int -> Int
 multiplica m n = m * n
 
 {-
 multiplica 2 3 = 6
-
-(multiplica 2) [10 .. 15] = [20, 22, 24, 26, 28 30]
+(multiplica 2) [10 .. 15] = [20, 22, 24, 26, 28, 30]
 -}
 
 tresIguais :: Int -> Int -> Int -> Bool
@@ -65,7 +64,7 @@ filter (\y -> y>15) . map (\x -> x*5)
   = [Int] -> [Int]
 -}
 
-f1 l = (filter (\y -> y>15) . map (\x -> x*5))
+f1 l = (filter (\y -> y > 15). map (\x -> x * 5)) l
 
 mzipwith :: (a -> b -> c) -> [a] -> [b] -> [c]
 mzipwith f (x:xs) (y:ys) = f x y : mzipwith f xs ys
@@ -76,16 +75,20 @@ mzipwith f (x:xs) (y:ys) = f x y : mzipwith f xs ys
 -}
 
 {-
+iter 4 (/2) 
+= (iter 3 (/2)) . (/2)
+= ((iter 2 (/2)). (/2)) . (/2)
+= (((iter 1 (/2)). (/2)). (/2)) . (/2)
+= (((iter 0 (/2)) ) (/2)). (/2)). (/2)) . (/2)
+= (( id ) (/2)). (/2)). (/2)) . (/2)
+
 -}
 
 {-
 iter 4 ((/) 2)
 = (iter 3 ((/) 2)) . ((/) 2)
-= (((iter 2 ((/) 2)) . ((/) 2)) . ((/) 2))
-= (iter 1 ((/) 2))) . ((/) 2) . ((/) 2) . ((/) 2)
-= (iter 0 ((/) 2)) . ((/) 2) . ((/) 2) . ((/) 2) . ((/) 2)
-= (id) . ((/) 2)) . ((/) 2) . ((/) 2) . ((/) 2) 
--}
-
-{-
+= (((iter 2((/) 2) )) . ((/) 2) . ((/) 2)
+= (iter 1 ((/) 2))). ((/) 2). ((/) 2). ((/) 2)
+= (iter 0 ((/) 2)). ((/) 2). ((/) 2). ((/) 2). ((/) 2)
+= (id) . ((/) 2). ((/) 2). ((/) 2). ((/) 2) 
 -}
