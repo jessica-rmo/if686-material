@@ -36,7 +36,7 @@ instance Show Lampada where
    show (Compacta n1 p1) = "Compacta " ++ n1 ++ " " ++ show p1
    
 
--- Laziness
+-- Avaliação preguiçosa (Laziness)
 
 f :: Int -> Int -> Int
 f a b = a + 10
