@@ -3,6 +3,7 @@
   <li><a href="https://docs.google.com/document/d/1LgMNvYrUKqUFn3K_VRlWQiGzBunnfHEtLOZq9WtEuIU/edit?usp=sharing" target="_blank">Resumo no Google Docs</a></li>
 	<li><a href="http://learnyouahaskell.com/chapters" target="_blank">Learn You a Haskell for Great Good</a> [<a href="http://haskell.tailorfontela.com.br/chapters" target="_blank">em português</a>]</li>
 	<li><a href="http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html" target="_blank">Syntax in Haskell</a></li>
+        <li><a href="https://www.haskell.org/onlinereport/haskell2010/" target="_blank">Haskell 2010 Language Report</a></li>
 	<li><a href="https://www.youtube.com/playlist?list=PL8eBmR3QtPL3pDzQpwPYfWQ4NEPGu6j7z" target="_blank">Curso Haskell para iniciantes (Youtube)</a></li>
 </ul>
 <br>
@@ -89,7 +90,7 @@
   <tr>
     <td>13</td>
     <td>02/10/18</td>
-    <td></td>
+    <td>ok</td>
     <td></td>
   </tr>
   <tr>
