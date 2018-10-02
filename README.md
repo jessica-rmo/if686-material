@@ -10,6 +10,9 @@
 
 <table>
 	<tr>
+		<th colspan="4">Unidade 1</th>
+	</tr>
+	<tr>
 		<th>Aula</th>
 		<th>Data</th>
 		<th>Códigos</th>
@@ -91,7 +94,7 @@
     <td>13</td>
     <td>02/10/18</td>
     <td>ok</td>
-    <td></td>
+    <td>fazendo</td>
   </tr>
   <tr>
     <td>14</td>
@@ -99,4 +102,29 @@
     <td></td>
     <td></td>
   </tr>
-</table>
+  <tr>
+    <td>15</td>
+    <td>05/10/18 <b>*</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table><br>
+
+<table>
+	<tr>
+		<th colspan="4">Unidade 2</th>
+	</tr>
+	<tr>
+		<th>Aula</th>
+		<th>Data</th>
+		<th>Códigos</th>
+		<th>Resumo</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table><br>
+<p><b>*</b> <i>aula extra/reposição</i> </p>
