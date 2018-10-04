@@ -99,7 +99,7 @@
   <tr>
     <td>14</td>
     <td>04/10/18</td>
-    <td></td>
+    <td>ok</td>
     <td>fazendo</td>
   </tr>
   <tr>
