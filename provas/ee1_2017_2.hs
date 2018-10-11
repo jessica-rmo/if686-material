@@ -31,6 +31,8 @@ soma :: (Int->Bool) -> [Int] -> Int
 soma f [] = 0
 soma f l = somaAux (filter f l)
 
+
+
 --q3
 altMap f1 f2 [] = []
 altMap f1 f2 (x:xs) = f1 x : (altMap f2 f1 xs)
