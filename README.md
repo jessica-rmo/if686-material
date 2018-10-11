@@ -105,14 +105,14 @@
   <tr>
     <td>15</td>
     <td>05/10/18 <b>*</b></td>
-    <td></td>
-    <td></td>
+    <td>ok</td>
+    <td>ok</td>
   </tr>
   <tr>
     <td>16</td>
-    <td>09/10/18 <b>*</b></td>
-    <td></td>
-    <td></td>
+    <td>09/10/18</td>
+    <td>ok</td>
+    <td>ok</td>
   </tr>
 </table><br>
 
