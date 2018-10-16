@@ -118,25 +118,28 @@
 
 <table>
 	<tr>
-		<th colspan="4">Unidade 2</th>
+		<th colspan="5">Unidade 2</th>
 	</tr>
 	<tr>
 		<th>Aula</th>
 		<th>Data</th>
 		<th>Códigos</th>
 		<th>Resumo</th>
-	</tr>
-	<tr>
-		<td>16</td>
-		<td>16/10/18</td>
-		<td></td>
-		<td></td>
+		<th>Observações</th>
 	</tr>
 	<tr>
 		<td>17</td>
+		<td>16/10/18</td>
+		<td>fazendo</td>
+		<td>fazendo</td>
+		<td>Resolução da EE1</th>
+	</tr>
+	<tr>
+		<td>18</td>
 		<td>18/10/18</td>
 		<td></td>
 		<td></td>
+		<td></th>
 	</tr>
 </table><br>
 <p><b>*</b> <i>aula extra/reposição</i> </p>
