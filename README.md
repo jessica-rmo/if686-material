@@ -1,6 +1,6 @@
 <h3>IF686 - Paradigmas de Linguagens Computacionais</h3><br>
 <ul>
-  <li><a href="https://docs.google.com/document/d/1LgMNvYrUKqUFn3K_VRlWQiGzBunnfHEtLOZq9WtEuIU/edit?usp=sharing" target="_blank">Resumo no Google Docs</a></li>
+	<li><a>Resumos: </a><a href="https://docs.google.com/document/d/1LgMNvYrUKqUFn3K_VRlWQiGzBunnfHEtLOZq9WtEuIU/edit?usp=sharing" target="_blank">[Unidade 1] </a><a href="https://docs.google.com/document/d/1Nw8qjXCSD4BhoD00VG4pt1vC9fh-RxWgZAdUJWIeea0/edit?usp=sharing" target="_blank">[Unidade 2]</a></li>
 	<li><a href="http://learnyouahaskell.com/chapters" target="_blank">Learn You a Haskell for Great Good</a> [<a href="http://haskell.tailorfontela.com.br/chapters" target="_blank">em português</a>]</li>
 	<li><a href="http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html" target="_blank">Syntax in Haskell</a></li>
         <li><a href="https://www.haskell.org/onlinereport/haskell2010/" target="_blank">Haskell 2010 Language Report</a></li>
@@ -127,8 +127,14 @@
 		<th>Resumo</th>
 	</tr>
 	<tr>
+		<td>16</td>
+		<td>16/10/18</td>
 		<td></td>
 		<td></td>
+	</tr>
+	<tr>
+		<td>17</td>
+		<td>18/10/18</td>
 		<td></td>
 		<td></td>
 	</tr>
