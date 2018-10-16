@@ -106,15 +106,17 @@
     <td>15</td>
     <td>05/10/18 <b>*</b></td>
     <td>ok</td>
-    <td>ok</td>
+    <td>ok <b>**</b></td>
   </tr>
   <tr>
     <td>16</td>
     <td>09/10/18</td>
     <td>ok</td>
-    <td>ok</td>
+	  <td>ok <b>**</b></td>
   </tr>
 </table><br>
+<p><b>*</b> <i>aula extra/reposição</i> </p>
+<p><b>**</b> <i>lista de exercícios</i> </p>
 
 <table>
 	<tr>
@@ -132,7 +134,7 @@
 		<td>16/10/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td>Resolução da EE1</th>
+		<td>resolução da EE1</th>
 	</tr>
 	<tr>
 		<td>18</td>
@@ -142,4 +144,3 @@
 		<td></th>
 	</tr>
 </table><br>
-<p><b>*</b> <i>aula extra/reposição</i> </p>
