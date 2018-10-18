@@ -132,15 +132,22 @@
 	<tr>
 		<td>17</td>
 		<td>16/10/18</td>
+		<td>ok</td>
+		<td>ok</td>
+		<td>resolução da EE1, exercício</th>
+	</tr>
+	<tr>
+		<td>18</td>
+		<td>18/10/18</td>
+		<td>ok</td>
 		<td>fazendo</td>
-		<td>fazendo</td>
-		<td>resolução da EE1</th>
-		</tr>
-		<tr>
-			<td>18</td>
-			<td>18/10/18</td>
-			<td></td>
-			<td></td>
-			<td></th>
-			</tr>
-		</table><br>
+		<td>exercício</th>
+	</tr>
+	<tr>
+		<td>19</td>
+		<td>23/10/18</td>
+		<td></td>
+		<td></td>
+		<td></th>
+	</tr>
+</table><br>
