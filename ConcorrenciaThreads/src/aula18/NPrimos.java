@@ -8,7 +8,7 @@ public class NPrimos extends Thread {
 
 	public void run(int ini, int end) {
 		int[] primos = this.calculaPrimos(ini, end);
-		System.out.println("Primos de "+ini+" até "+end+":");
+		System.out.println("Primos de "+ini+" ate "+end+":");
 		print(primos);
 		System.out.println();//
 	}
