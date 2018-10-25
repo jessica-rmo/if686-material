@@ -153,6 +153,13 @@
 	<tr>
 		<td>20</td>
 		<td>25/10/18</td>
+		<td>fazendo</td>
+		<td>fazendo</td>
+		<td>exercicios</th>
+	</tr>
+	<tr>
+		<td>21</td>
+		<td>30/10/18</td>
 		<td></td>
 		<td></td>
 		<td></th>
