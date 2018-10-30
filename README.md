@@ -160,6 +160,13 @@
 	<tr>
 		<td>21</td>
 		<td>30/10/18</td>
+		<td>fazendo</td>
+		<td>fazendo</td>
+		<td></th>
+	</tr>
+	<tr>
+		<td>22</td>
+		<td>06/11/18</td>
 		<td></td>
 		<td></td>
 		<td></th>
