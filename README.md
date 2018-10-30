@@ -162,7 +162,7 @@
 		<td>30/10/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td></th>
+		<td>exercicios/th>
 	</tr>
 	<tr>
 		<td>22</td>
