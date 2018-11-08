@@ -134,41 +134,48 @@
 		<td>16/10/18</td>
 		<td>ok</td>
 		<td>ok</td>
-		<td>resolução da EE1, exercício</th>
+		<td>resolução da EE1, exercício</td>
 	</tr>
 	<tr>
 		<td>18</td>
 		<td>18/10/18</td>
 		<td>ok</td>
 		<td>fazendo</td>
-		<td>exercício</th>
+		<td>exercício</td>
 	</tr>
 	<tr>
 		<td>19</td>
 		<td>23/10/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td>exercícios</th>
+		<td>exercícios</td>
 	</tr>
 	<tr>
 		<td>20</td>
 		<td>25/10/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td>exercicios</th>
+		<td>exercicios</td>
 	</tr>
 	<tr>
 		<td>21</td>
 		<td>30/10/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td>exercicios/th>
+		<td>exercicios</td>
 	</tr>
 	<tr>
 		<td>22</td>
 		<td>06/11/18</td>
+		<td>fazer</td>
+		<td>fazer</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>23</td>
+		<td>08/11/18</td>
 		<td></td>
 		<td></td>
-		<td></th>
+		<td></td>
 	</tr>
 </table><br>
