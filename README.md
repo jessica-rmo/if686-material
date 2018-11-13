@@ -181,7 +181,7 @@
 	<tr>
 		<td>24</td>
 		<td>13/11/18</td>
-		<td></td>
+		<td>fazendo</td>
 		<td>fazendo</td>
 		<td></td>
 	</tr>
