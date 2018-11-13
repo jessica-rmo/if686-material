@@ -174,6 +174,13 @@
 	<tr>
 		<td>23</td>
 		<td>08/11/18</td>
+		<td>fazer</td>
+		<td>fazer</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>24</td>
+		<td>13/11/18</td>
 		<td></td>
 		<td></td>
 		<td></td>
