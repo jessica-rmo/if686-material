@@ -183,6 +183,6 @@
 		<td>13/11/18</td>
 		<td>fazendo</td>
 		<td>fazendo</td>
-		<td></td>
+		<td>exercícios</td>
 	</tr>
 </table><br>
