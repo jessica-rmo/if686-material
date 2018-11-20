@@ -185,4 +185,11 @@
 		<td>fazendo</td>
 		<td>exercícios</td>
 	</tr>
+	<tr>
+		<td>25</td>
+		<td>20/11/18</td>
+		<td>fazer</td>
+		<td>fazendo</td>
+		<td>exercícios</td>
+	</tr>
 </table><br>
