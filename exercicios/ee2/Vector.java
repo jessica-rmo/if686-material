@@ -1,5 +1,11 @@
 public class Vector {
-	private final int[] content;
+	/**
+	 * Implemente, em Java, um vetor que seja seguro para uso com threads. 
+	 * Os métodos get, set e swap devem ser implementados
+	 * 
+	 * **/
+	
+	public final int[] content;
 
 	public Vector(int size) {
 		this.content = new int[size];

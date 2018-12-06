@@ -1,5 +1,9 @@
 public class BQueue {
-	private int[] fila;
+	/**
+	 * Implemente uma fila bloqueante em Java. Não usar funções da biblioteca de Java.
+	 * **/
+	
+	public int[] fila;
 	private int size;
 
 	public BQueue(int size) {

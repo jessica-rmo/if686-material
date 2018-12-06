@@ -1,3 +1,13 @@
+{-
+Na preparação de sanduíches em uma lanchonete, uma pessoa
+fornece os ingredientes (pão, carne e tomate); duas outras são responsáveis por
+preparar os sanduíches. Porém, a lanchonete dispõe de apenas uma faca para ser
+utilizada na preparação. Considere que os recipientes de ingredientes são continuamente 
+reabastecidos na capacidade máxima de porções (30 para cada ingrediente).
+Desenvolva uma solução em Haskell que modele o funcionamento desta
+lanchonete.
+-}
+
 module Main where 
 
 import Control.Concurrent
