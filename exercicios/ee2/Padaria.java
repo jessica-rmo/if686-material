@@ -1,5 +1,5 @@
 
-public class Forno {
+public class Padaria {
 	/**
 	 * O forno de uma padaria tem capacidade para assar 50 pães simultaneamente. 
 	 * À medida que pães ficam prontos, são retirados do forno. O abastecimento, 
@@ -12,14 +12,13 @@ public class Forno {
 	 * devido ao tempo necessário para assar os pães.
 	 * 
 	 * **/
+	
+	
 
 	public static void main(String[] args) {
-		BQueue padaria = new BQueue(50);
-		Vector forno = new Vector(50);
+		BQueue forno = new BQueue(50);
+		//push(val), pop, getSize
 		
-		padaria.fila = forno.content;
-		
-			
 		
 
 	}
