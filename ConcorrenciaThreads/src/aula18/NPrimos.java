@@ -78,8 +78,13 @@ public class NPrimos extends Thread {
 		int end = faixa;
 
 		for (int i = 0; i < X; i++) {
-			(new NPrimos(i*faixa+1, end)).start(); //(ini,end)
+			Thread t = new NPrimos(i*faixa+1, end); //(ini,end)
+			t.start();
 			end += faixa;
+			
+			try {
+				t.join();
+			} catch(InterruptedException ie) {}
 		}
 	}
 }
