@@ -13,12 +13,25 @@ public class Padaria {
 	 * 
 	 * **/
 	
+	private int[] forno;
 	
+	public Padaria(int[] forno) {
+		this.forno = forno;
+	}
+		
+	public void abastecer() {
+		
+	}
 
+	public void retirar() {
+		
+	}
+	
 	public static void main(String[] args) {
 		BQueue forno = new BQueue(50);
 		//push(val), pop, getSize
-		
+
+		Padaria padaria = new Padaria(forno.fila);
 		
 
 	}
