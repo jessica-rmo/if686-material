@@ -1,4 +1,4 @@
-class BQueue {
+public class BQueue {
 	private int[] fila;
 	private int size;
 
